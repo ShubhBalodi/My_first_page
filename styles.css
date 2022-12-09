@@ -75,9 +75,10 @@ a {
     align-self: flex-start;
     margin-top: 10px;
     padding: 4px 16px;
-    background-color: rgb(84, 130, 221);
+    background-color: #4267B2;
     border-radius: 6px;
     color: white;
+    border-style: none;
 }
 
 .big {
@@ -120,7 +121,7 @@ a {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    border-color: rgb(76, 76, 241);
+    border-color: #4267B2;
     border-style: solid;
     border-width: 5px;
 }
@@ -137,10 +138,50 @@ a {
 .third p {
     font-weight: bold;
     align-self: flex-end;
+    font-size: 20px;
 }
 
 .third h4 {
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: 100;
     padding: 0;
     margin: 0;
+}
+
+.fourth {
+    padding: 3% 15%;
+}
+
+.container {
+    border-radius: 10px;
+    color: white;
+    background-color: #4389da;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.A {
+    padding: 3% 0px;
+}
+
+.p1 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.p2 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container button {
+    align-self: center;
+    color: white;
+    background-color: #4389da;
+    border-radius: 5px;
+    padding: 5px 16px;
+    border-color: white;
+    border-style: ridge;
 }
